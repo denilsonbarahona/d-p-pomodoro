@@ -1,0 +1,23 @@
+.form {
+    margin-block-start: 8rem;
+}
+
+.type {
+    padding-block-start: 0.75rem;
+    padding-block-end: 0.75rem;
+    padding-inline-start: .5rem;
+    padding-inline-end: .5rem;
+    border: none;
+    border-radius: .5rem;
+    inline-size: 100%;
+    box-sizing: border-box;
+}
+
+.form-msj { 
+    margin: 0;
+    font-family: roboto;
+    display: none;
+    font-size: 9.rem; 
+    font-weight: 400; 
+    color: var(--red); 
+}

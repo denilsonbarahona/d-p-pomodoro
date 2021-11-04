@@ -1,0 +1,55 @@
+.progress {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-container {
+    margin: 0;
+    padding: 0;
+}
+
+.progress_inner{    
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke:var(--pink);  
+    stroke-linecap: round;  
+}
+
+.progress_outer {
+    stroke:var(--pink); 
+    opacity: .20;
+}
+
+.progress-time {
+    font-size: 3rem;
+    font-family: roboto;
+    font-weight: 500;
+    color: var(--pink);
+    margin: 0; 
+}
+
+.process-text { 
+    position: absolute;
+    box-sizing: border-box;
+    display: grid;
+    text-align: center;
+    flex-direction: column; 
+    align-content: center;
+    inline-size: 100%;
+    block-size: 100%; 
+}
+
+.process-state {
+    display: none; 
+    font-family: roboto;
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: var(--pink);
+    margin: 0;    
+}
